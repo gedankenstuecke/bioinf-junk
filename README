@@ -1,0 +1,7 @@
+Contents:
+* misa -> Wrapper that uses misa to detect SSRs and gives back tab-delimited file with original-sequence
+* xmlextractor -> parses blast-xml-output (useful if you want to use blast2go) and gives back a tab-delimited file incl. most important information about hits
+* xmlextractor_filter -> use a e-value-cutoff
+* mapping_fiter.py -> filter a huge fasta-file using sequence-identifiers to get rid of unwanted entries
+* gofinder -> enhance cli-output of blast2go with more information about go-hits
+* genreconstruction.py -> let's not talk about this one...
