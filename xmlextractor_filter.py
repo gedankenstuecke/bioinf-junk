@@ -15,8 +15,11 @@ def input():
 		print "office-tools like Open Office Calculator or MS Excel"
 		print ""
 		print "Just start the script giving a single XML-File"
-		print "i.e. \"./xmlextractor.py blastout.xml\""
-
+		print "i.e. \"./xmlextractor_filter.py blastout.xml\""
+		print ""
+		print "This script also allows filtering only sequences below a e-value-cutoff"
+		print "Just pass the wanted cutoff as an additional argument:"
+		print "i.e. \"./xmlextractor_filter.py blastout.xml 1e-5\""
 
 # GET DATA OUT OF XML-FILE #
 # DATA WILL BE STORED IN NESTED LIST [[identifier, foo, bar], [identifier, foo, bar],]]
