@@ -79,3 +79,5 @@ def main():
 		print "2. The tab-seperated output of ORFFINDER, that is used to divide the sequences"
 		print ""
 		print "Example: ./utr_filter.py nucleotide_sequences.fasta orffilter_results.tsv"
+
+main()
