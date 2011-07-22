@@ -69,7 +69,7 @@ def snp_writer(snp_array):
 	out_handle = open("snps.tsv","w")
 	
 	for single_snp in snp_array:
-		snp_line = single.snp.chromosome+"\t"+str(single_snp.position)
+		snp_line = single_snp.chromosome+"\t"+str(single_snp.position)
 		for genotype in single_snp.genotypes:
 			snp_line = snp_line + "\t" + genotype + "\t" + str(single_snp.genotypes[genotype])
 		snp_line = snp_line + "\n"
