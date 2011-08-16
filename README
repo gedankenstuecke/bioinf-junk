@@ -3,10 +3,10 @@ Contents:
 * utr_filter.py -> split a fasta-file into 2, one with all CDSs and one with all UTRs. Needs ORFPREDICTOR-Input
 * radtag_finder.py -> Find all restriction-enzyme-sites in all sequences of a fasta-file
 * snp_finder.py -> Find all SNPs in a BAM/SAM-File. SNPs are defined by minimum read depth of the alignment and the minimum allele frequency
-* xmlextractor -> parses blast-xml-output (useful if you want to use blast2go) and gives back a tab-delimited file incl. most important information about hits
-* xmlextractor_filter -> use a e-value-cutoff
+* snp_utr_filter.py -> Bin SNPs to UTR/CDS-bins
+* xml_blast_extractor.py -> parses blast-xml-output (useful if you want to use blast2go) and gives back a tab-delimited file incl. most important information about hits. use an evalue-cutoff to filter the hits
 * readfilterfiter.py -> filter a huge fasta-file using sequence-identifiers to get rid of unwanted entries
-* gofinder -> enhance cli-output of blast2go with more information about go-hits
+* gofinder.py -> enhance cli-output of blast2go with more information about go-hits
 * genreconstruction.py -> let's not talk about this one...
 
 feel free to help
