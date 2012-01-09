@@ -9,4 +9,4 @@ Contents:
 * gofinder.py -> enhance cli-output of blast2go with more information about go-hits
 * genreconstruction.py -> let's not talk about this one...
 
-feel free to help
+feel free to help or to tell me about bugs
